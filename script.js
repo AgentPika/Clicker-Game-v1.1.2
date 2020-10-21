@@ -1,4 +1,4 @@
-alert("Fait par Pika#8509 Game Version: 1.1.0")
+alert("Fait par Pika#8509 Game Version: 1.1.1")
 var x=0;
 var lv=1;
 var at=1;
