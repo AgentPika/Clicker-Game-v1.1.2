@@ -1,0 +1,26 @@
+body {
+	background-color: #A5DCDC;
+}
+
+p.titre-prin { 
+	background-color: white;
+	display: grid;
+	text-align: center;
+	font-size: 60px;
+	color: red;
+	border-style: none;
+	border-radius: 20px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+p {
+	font-family: Bradley Hand, cursive;
+}
+
+button {
+	font-family: Bradley Hand, cursive;
+	background-color: #A5DCDC;
+	border-style: solid;
+	border-color: black;
+	font-size: 20px;
+}
