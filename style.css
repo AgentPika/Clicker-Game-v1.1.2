@@ -9,13 +9,14 @@ h1.titre-prin {
 	font-size: 60px;
 	color: #1CFF04;
 	border-style: none;
-	border-radius: 20px;
+	border-radius: 60px;
 	font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 p {
 	font-family: Bradley Hand, cursive;
 	color: white;
+	font-size: 20px
 }
 
 button {
