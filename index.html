@@ -4,19 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Money clicker</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href="css/load.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-    <script src="script.js"></script>
-    <div>
+  <body onload="load()" style="margin:0;">
+    <script src="script/load.js"></script>
+    <script src="script/main.js"></script>
+	<div id="loader"></div>
+	<div style="display:none;" id="myDiv" class="animate-bottom">
 		<h1 class="titre-prin"><small>MAKE</small>MONEY !</h1>
 		<button onclick=oncl() id="money">CLICK ME !<img src="image/money.svg"></button>
-	</div>
-	<div>
 		<p id="p">0 Point</p>
 		<button onclick=upgrade() id="u">cost: 100| Upgrade</button>
+        <button onclick=autoclick() id="g">cost:150|    Generator 1 lv: 1</button>
+	    <button onclick=autoclick2() id="g2">cost:300| Generator 2 lv: 1</button>
 	</div>
-	<button onclick=autoclick() id="g">cost:150|    Generator 1 lv: 1</button>
-	<button onclick=autoclick2() id="g2">cost:300| Generator 2 lv: 1</button>
   </body>
 </html>
