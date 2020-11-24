@@ -1,5 +1,6 @@
 body {
-	background-color: #A5DCDC;
+	background-color: #A5DCDC; 
+/* background-image: url(/image/background.svg); */
 }
 
 h1.titre-prin { 
