@@ -1,13 +1,7 @@
-var k;
-Boolean(k);
+var p = 100
 
-function reward() {
-	if (x>=2) {
-		k=false;
-		x+=100;
-		alert("GG le premier achivement est unlock");
-		console.log("Premier achivement unlock");
-	}
-	if(k=false);
-	alert("Tu as déjà le sucess !")
+function reward(){
+    if (p <= 100){
+        alert("gg");
+    }
 }

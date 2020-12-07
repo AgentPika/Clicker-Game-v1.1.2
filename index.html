@@ -6,6 +6,7 @@
     <title>Money clicker</title>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
 	<link href="css/load.css" rel="stylesheet" type="text/css">
+    <link href="css/navigation.css" rel="stylesheet" type="text/css">
   </head>
   <body onload="load()" style="margin:0;">
     <script src="script/load.js"></script>
@@ -14,14 +15,19 @@
 	<script src="script/achievement.js"></script>
 	<div id="loader"></div>
 	<div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="topnav">
+            <a href="accueil.html" href="#home">Home</a>
+            <a href="index.html" class="active">Jouer</a>
+            <a href="contact.html">Contact</a>
+        </div>
 		<h1 class="titre-prin"><small>MAKE</small>MONEY !</h1>
 		<button onclick=oncl() id="money">CLICK ME !<img src="image/money.svg"></button>
 		<p id="p">0 Point</p>
-		<button onclick=upgrade() id="u">cost: 100| Upgrade</button>
+		<button onclick=upgrade() id="u">cost: 100| Upgrade lv: 1</button>
         <button onclick=autoclick() id="g">cost:150|    Generator 1 lv: 1</button>
 	    <button onclick=autoclick2() id="g2">cost:300| Generator 2 lv: 1</button>
 		<br>
-		<button onclick=reward() id="r">Claim reward !</button>
+		<button onclick=reward() id="r" disabled="true">Claim reward ! || Disabled</button>
 	</div>
   </body>
 </html>

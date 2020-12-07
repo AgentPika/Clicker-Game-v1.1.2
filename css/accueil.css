@@ -1,0 +1,9 @@
+body {
+	background-color: #A5DCDC; 
+}
+
+h1.titre { 
+	text-align: center;
+	font-size: 60px;	border-style: none;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
